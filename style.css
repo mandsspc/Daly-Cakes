@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 0 -2rem 0;
 }
 .container-location {
     display: flex;
@@ -15,18 +16,18 @@
     @media(max-width:768px){
         .container-location {
             display: flex;
-            margin-left: 40px;
+            margin-left: 2.5rem;
         }
     }   
     @media(max-width:425px){
         .container-location {
             display: flex;
-            margin-left: 40px;
+            margin-left: 2.5rem;
         }
     }
 .img-location {
     width: 20px;
-    margin-left: 40px;
+    margin-left: 2.5rem ;
 }
     @media(max-width:425px){
         .img-location {
@@ -57,7 +58,7 @@
 .first-title {
     font-family: 'Rouge Script', cursive;
     font-size: 64px;
-    line-height: 40px;
+    line-height: 2.5rem;
     margin: 0px 25px 0px 0px;
 } 
     @media (max-width:768px) {
@@ -77,7 +78,7 @@
 .second-title {
     font-family: 'Rouge Script', cursive;
     font-size: 64px;
-    line-height: 40px;
+    line-height: 2.5rem;
     margin: 0px 0px 0px 10px;
 }
     @media(max-width:425px){
@@ -97,8 +98,9 @@
 }
     @media (max-width:768px) {
         .button-init {
-            margin: 5px 120px 0px 170px;
+            margin: 5px 0px 0px 141px;
             font-size: 15px;
+            width: 12rem;
         }
     }
     @media(max-width:425px){
@@ -154,6 +156,7 @@
 .container-menu {
     display: flex;
     justify-content: space-between;
+    margin: 0rem 0 1rem 0rem;
 }
     @media (max-width:768px) {
         .container-menu {
@@ -227,11 +230,12 @@
             font-size: 18px;
             font-style: normal;
             border-width: 2px;
+            width: 12rem;
         }
     }       
     @media(max-width:425px){
         .button-search {
-            height: 40px;
+            height: 2.5rem;
             width: 300px;
             position: absolute;
             top: 154px;
@@ -265,43 +269,67 @@
     align-items: center;
     display: flex;
 }
+    @media (max-width:768px) {
+        .container-description-init {
+            width: 155%;
+        }
+    }
     @media (max-width:425px) {
         .container-description-init {
             text-align: center;
-            margin-left: 210px;
+            width: 305%;
+            height: 68%;
+            text-align: center;
         }
     }
-.title-main {
-    font-family: 'Rouge Script', cursive;
-    color: #FF6666;
-    font-size: 52px;
-}
-    @media (max-width:1024px){
-        .title-main {
-            line-height: 127px;
-        }
-    }
-    @media (max-width:768px) {
-        .title-main {
-            margin-top: -350px;
-            font-size: 66px;
-        }
-    }
-    @media(max-width:425px){
-        .title-main {
-            font-size: 138px;
-            margin-top: -555px;
-            margin-left: 253px;
-         }
-     } 
-
 .wrap-description {
     width: 55%;
 }
-
+    @media (max-width:1024px){
+        .wrap-description {
+            width: 56%;
+            margin-top: -3rem;
+         }
+    }
+    @media (max-width:768px){
+        .wrap-description {
+            width: 59%;
+            margin-top: 26rem;
+         }
+    }
+    @media (max-width:425px){
+        .wrap-description {
+            width: 64%;
+            margin-top: 39rem;
+         }
+    }
+.title-main {
+        font-family: 'Rouge Script', cursive;
+        color: #FF6666;
+        font-size: 52px;
+    }
+        @media (max-width:1024px){
+            .title-main {
+                line-height: 127px;
+            }
+        }
+        @media (max-width:768px) {
+            .title-main {
+                margin-top: -350px;
+                font-size: 66px;
+            }
+        }
+        @media(max-width:425px){
+            .title-main {
+                font-size: 138px;
+                margin-top: -555px;
+             }
+         } 
+    
 .subtitle-main {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
+    line-height: 1rem;
 }
     @media (max-width:1024px){
         .subtitle-main {
@@ -311,14 +339,14 @@
     @media (max-width:768px) {
         .subtitle-main {
             font-size: 18px;
-            margin-left: 170px;
+            line-height: 2rem;
         }
     }
     @media(max-width:425px){
         .subtitle-main {
             font-size: 33px;
             line-height: 96px;
-            margin-left: 326px;
+            margin-left: 309px;
             width: 215px;
          }
      } 
@@ -336,7 +364,7 @@
     }
     @media(max-width:425px){
         .description {
-            font-size: 40px;
+            font-size: 2.5rem;
             line-height: 44px;
             margin-top: -4px;
             width: 700px;
@@ -351,6 +379,7 @@
     font-family:  'Rosario', sans-serif;
     font-weight: bold;
     font-size: 16px;
+    margin-top: 1rem;
 }
     @media (max-width:768px) {
         .button-description {
@@ -362,23 +391,21 @@
         .button-description {
            padding: 25px;
            width: 200px;
-           margin-left: 345px;
+           margin-left: 23px;
            font-size: 26px;
          }
      } 
 .cakes-description-container-init {
-  
+            margin: 0 -3rem -1rem 0;
 }
     @media (max-width:1024px){
         .cakes-description-container-init {
-            margin-left: 739px;
-            margin-top: -204px;
+            margin: 0 -8rem 0 0;
         }
     }
     @media (max-width:768px){
         .cakes-description-container-init {
-            margin-left: 870px;
-            margin-top: -200px;
+            margin: 0 0 0 4rem;
         }
     }
     @media(max-width:425px){
@@ -391,19 +418,20 @@
     width: 714px;
     height: 370px;
     position: absolute;
-    top: 457px;
+    top: 423px;
     left: 302px;
 }
     @media (max-width:1024px){
         .container-description-cakes {
-            top: 424px;
-            left: 177px;
+            width: 57%;
+            left: 259px;
         }
     }
     @media (max-width:768px){
         .container-description-cakes {
-            top: 500px;
-            left: 290px;
+            top: 417px;
+            left: 286px;
+            width: 93%;
         }
     }
     @media(max-width:425px){
@@ -415,10 +443,15 @@
          }
      } 
 .cupcakes-container {
-    width: 660px;
+    width: 93%;
     margin-top: 20px;
     margin-left: 27px;
 }
+    @media (max-width:1024px){
+        .cupcakes-container {
+            width: 91%;
+        }
+    }
     @media(max-width:425px){
         .cupcakes-container {
             width: 793px;
@@ -430,13 +463,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -270px;
+    width: 100%;
+    margin-top: -15rem;
 }
+    @media (max-width:1024px){
+        .container-text-cakes {
+            margin-top: -13rem;
+        }
+    }
+    @media (max-width:768px){
+        .container-text-cakes {
+            margin-top: -16rem;
+        }
+    }
+    @media (max-width:425px){
+        .container-text-cakes {
+            margin-top: -19rem;
+        }
+    }
 .title-cakes {
     font-family: 'Rouge Script', cursive;
     color: #FF6666;
     font-size: 62px; 
-    margin-left: 30px;
 }
     @media (max-width:768px){
         .title-cakes {
@@ -452,12 +500,16 @@
 .description-cakes {
     font-family: 'Rosario', sans-serif;
     font-weight: bold;
-    margin-left: 170px;
+    text-align: center;
     font-size: 18px; 
-    width: 577px;  
-    margin-left: 10px;
-    margin-top: 40px;
+    width: 572px;  
+    margin-top: 1rem;
 }
+    @media (max-width:1024px){
+        .description-cakes {
+            width: 532px; 
+        }
+    }
     @media (max-width:768px){
         .description-cakes {
             font-size: 22px;
@@ -550,7 +602,7 @@
     font-size: 14px;
     width: 275px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem ;
     margin-left: 15px;
 }
     @media (max-width:768px){
