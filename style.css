@@ -26,12 +26,12 @@
         }
     }
 .img-location {
-    width: 20px;
+    width: 1.25rem;
     margin-left: 2.5rem ;
 }
     @media(max-width:425px){
         .img-location {
-            width: 30px;
+            width: 1.875rem;
         }
     }
 .location {
@@ -114,7 +114,7 @@
     }
 .division-container-header {
     border: 1px dashed #F2F2F2;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
     @media (max-width:768px) {
         .division-container-header {
@@ -141,7 +141,7 @@
 #menu-hamburguer {
             display: block;
             margin-left: 1072px;
-            margin-top: 20px;
+            margin-top: 1.25rem;
         }
     }
 .link-menu {
@@ -202,7 +202,7 @@
         }
     }      
 .img-lupa {
-    width: 30px;
+    width: 1.875rem;
     margin: 21px 15px 0px 0px;
 }
     @media(max-width:425px){
@@ -226,7 +226,7 @@
     @media (max-width:768px) {
         .button-search {
             margin: 21px 0px 0px 0px;
-            height: 30px;
+            height: 1.875rem;
             font-size: 18px;
             font-style: normal;
             border-width: 2px;
@@ -247,7 +247,7 @@
      } 
 .img-container-description {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
     @media (max-width:768px) {
         .img-container-description{
@@ -424,14 +424,15 @@
     @media (max-width:1024px){
         .container-description-cakes {
             width: 57%;
+            top: 387px;
             left: 259px;
         }
     }
     @media (max-width:768px){
         .container-description-cakes {
-            top: 417px;
-            left: 286px;
-            width: 93%;
+            top: 391px;
+            left: 248px;
+            width: 95%;
         }
     }
     @media(max-width:425px){
@@ -444,7 +445,7 @@
      } 
 .cupcakes-container {
     width: 93%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     margin-left: 27px;
 }
     @media (max-width:1024px){
@@ -456,7 +457,7 @@
         .cupcakes-container {
             width: 793px;
             height: 450px;
-            margin-top: 20px;    
+            margin-top:1.25rem ;    
         }
     } 
 .container-text-cakes {
@@ -608,7 +609,7 @@
     @media (max-width:768px){
         .description-container-offer {
             font-size: 18px;
-            margin-top: 20px;
+            margin-top: 1.25rem;
             line-height: 24px;
         }
     }
